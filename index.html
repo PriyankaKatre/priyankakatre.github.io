@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="CSS/index.css">
+		<script src="JQportfolio.js"></script>
+
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="rectangle">
+					<div id="header">
+						<nav class=" clearfix" >
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle clearfix" data-toggle="collapse" data-target="#myNavbar">
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							        <span class="icon-bar"></span>
+							    </button>
+								<a href="#index"><img class="navbar-brand center-block " src="images/infi2.png" alt="Logo" ></a>
+							</div>
+							<div class="indexli">
+								<div class="collapse navbar-collapse indexli " id="myNavbar" >
+									<ul class="nav nav-pills nav-justified clearfix border-rounded">
+										<li class=" indexnav"> <a data-toggle="tab" href="#index"> HOME </a> </li>
+										<li class="portfolionav "> <a data-toggle="tab" href="#portfolio">PORTFOLIO </a> </li>
+										<li class="aboutnav "> <a data-toggle="tab" href="#about"> ABOUT </a> </li>
+										<li class="contactnav "> <a data-toggle="tab" href="#contact"> CONTACT </a> </li>
+										<div class="hoveranimation"></div>
+									</ul>
+								</div>
+							</div>
+
+						</nav>
+						<div class="tab-content">
+							<div class="indexPage" id="index" class="tab-pane">
+								<div class="bgimage container-fluid" style="background:url('images/background03.png') no-repeat;">
+									<div class="jumbotron">
+											<div class="jumbotron">
+											<div class="about text-center ">
+							   			 		<div class="maincontent">
+													<p><b>Welcome to the online portfolio of
+													<span>Priyanka Katre </span>
+													<span>(priyankack1707@gmail.com)</span>
+													An enthusiastic freelance Front End Web Developer with a passion for creating interactive websites.
+													</b></p>
+												</div>
+											</div>
+											<button class="btn btn-active center-block seeMyWork">
+												<b>SEE MY WORKS</b> <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+											</button>
+						   			 	</div>
+						   			 	<button class="btn btn-info center-block goToTop"><strong>Go To Top</strong></button>
+
+									</div>
+								</div>
+								<img class="last-image" src="images/back5.png" alt="">
+
+							</div> <!--indexPage div close -->
+						</div>
+							<!--PORTFOLIO PAGE-->
+							<div class="portfolioPage tab-pane " id="portfolio">
+								<div class="bgimage container-fluid" style="background:url('images/background03.png') no-repeat;">
+									<div class="jumbotron">
+										<div class="slideshow row ">
+							                <a href="#" target="_blank"><div>
+							                    <img class=" slideImage col-xs-10 img-responsive center-block"  src="images/images/image1.png">
+							                </div></a>
+
+							                <a href="#" target="_blank"><div>
+							                    <img class=" slideImage  col-xs-10 img-responsive center-block" src="images/images/interior.png">
+							                </div></a>
+
+							                <a href="#" target="_blank"><div>
+							                    <img  class="slideImage  col-xs-10 img-responsive center-block" src="images/images/resort.png">
+							                </div></a>
+
+							                </div>
+							            <div class="images row text-center">
+							            	<div class=" col-xs-12 col-sm-4">
+							            		<figure>
+												 	<a href="https://talkharrow.github.io" target="_blank" alt="img1"><img  class="  img-responsive" src="images/images/image1.png"  height="220px" alt="TalkHarrow"></a>
+												 	<figcaption><strong>Talk Harrow is a platform for a number of independent local groups of people in the Harrow area to encourage those for whom English is not their first language. </strong></figcaption>
+													<a href="https://talkharrow.github.io">See Design</a>
+												</figure>
+											</div>
+											<div class=" col-xs-12 col-sm-4">
+												<figure>
+													<a href="https://spinterior.github.io/" target="_blank"><img  class=" img-responsive" src="images/images/interior.png"  height="220px" alt="SPInterior"></a>
+													<figcaption><strong>SPInterior deals in home renovation, office renovation, modular kitchen, wardrobe, wooden work, PoP false ceiling, italian marble, painting and many more.</strong></figcaption>
+													<a href="https://spinterior.github.io/">See Design</a>
+												</figure>
+											 </div>
+											<div class=" col-xs-12 col-sm-4">
+												<figure>
+													<a href="H:\COADING\Coding\YDS CLASS\website\WEB\resort.html" target="_blank"><img  class=" img-responsive" src="images/images/resort.png"  height="220px" alt="Resort"></a>
+													<figcaption></figcaption>
+													<a href="SPInterior.github.io">See Design</a>
+												</figure>
+											 </div>
+										</div><!-- end images -->
+										<button class="btn btn-info center-block goToTop"><strong>Go To Top</strong></button>
+									</div>
+								</div>
+								<img class="last-image"  src="images/back5.png" alt="">
+							</div>
+							<!--ABOUT PAGE-->
+
+							<div class="aboutPage tab-pane" id="about">
+								<div class="bgimage container-fluid" style="background:url('images/background03.png') no-repeat;">
+									<div class="jumbotron">
+										<div class="aboutcontant">
+											<h3>Technical Skills</h3>
+
+											<ul>
+												<li>Web - HTML5, CSS3, Bootstrap, JavaScript, JQuery, AngularJs(Basic), LESS	</li>
+												<li>Database - Oracle</li>
+												<li>Query Language - SQL	</li>
+												<li>Software Testing - Manual Software Testing	</li>
+												<li>Application Software - MS Office 2007, 2010	</li>
+												<li>Operating Systems - Windows XP, Windows 7, Windows 8.1</li>
+											</ul>
+
+											<h3 id="Qualifications">Qualifications (Professional/Academic)</h3>
+											<ul>
+												<li>2015 - Software Testing Certification</li>
+												<li>2008 - 2011 Bachelor of Engineering (Electronics & Communication)	</li>
+											</ul>
+
+											<h3 id="Qualifications"> Extracurricular Activities </h3>
+											<ul>
+												<li>Volunteering as Assistant Facilitator and Web Support at Kenton Library (Harrow, London).	</li>
+												<li>Volunteered for the social events organized by some of the NGOs in Pune (India).</li>
+
+											</ul>
+
+											<h3 id="Qualifications">Strengths </h3>
+											<ul>
+												<li>Eager to learn and take on new responsibilities and challenges.	</li>
+												<li>Ability to work under pressure.</li>
+												<li>Enthusiastic and hard working.</li>
+											</ul>
+										</div>
+										<button class="btn btn-info center-block goToTop"><strong>Go To Top</strong></button>
+									</div>
+									<img class="last-image" src="images/back5.png" alt="">
+								</div>
+							</div>
+
+							<!--CONTACT PAGE-->
+							<div class="contactPage tab-pane" id="contact">
+								<div class="bgimage container-fluid" style="background:url('images/background03.png') no-repeat;">
+									<div class="jumbotron">
+										<div class="contactInfo">
+											<h3>Contact No: <span> +44 &nbsp743 &nbsp841 &nbsp9286</span></h3>
+							   				<h3>Email: <span> priyankack1707@gmail.com</span></h3>
+						   				</div>
+						   				<button class="btn btn-info center-block goToTop"><strong>Go To Top</strong></button>
+									</div>
+								</div>
+								<img class="last-image" src="images/back5.png" alt="">
+							</div>
+						</div>
+						<div class="footer">
+							<div class="jumbotron">
+								<ul class="nav navbar-nav ">
+				   					<li ><a href="#">copyright &copy 2017</a></li>
+				   					<li ><a href="#index">HOME</a></li>
+				   					<li><a href="#portfolio">PORTFOLIO</a></li>
+				   					<li><a href="#about">ABOUT</a></li>
+				   					<li><a href="#contact">CONTACT</a></li>
+				   				</ul>
+				   			</div>
+	   					</div><!-- end footer -->
+
+				</div>
+			</div>
+		</div>
+
+	</body>
+</html>
